@@ -11,6 +11,7 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
+import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_PEPPER
 import app.template.patches.shared.gms.gmsCoreSupportResourcePatch
@@ -55,7 +56,13 @@ val gmsCoreSupportPatch = bytecodePatch(
         )
 
         // Read the response of GmsCore in the format of Android 13, which it answers with.
-        HandleGetCredentialResponseFingerprint.let {
+        val credentialResponseFingerprint = listOf(
+            HandleGetCredentialResponseFingerprint,
+            RetrieveGetCredentialResponseFingerprint,
+        ).firstOrNull { it.methodOrNull != null }
+            ?: throw PatchException("Could not find the credential response format selection")
+
+        credentialResponseFingerprint.let {
             val sdkIntIndex = it.instructionMatches.first().index
             val register = it.method.getInstruction<OneRegisterInstruction>(sdkIntIndex).registerA
 
