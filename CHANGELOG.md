@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.1...v1.1.2) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* adblocking? ([712f7b6](https://github.com/daqot-The-real-one/morphe-patches/commit/712f7b6136f51a8f8edefe892731d3a080156c23))
+* crash? ([81122e9](https://github.com/daqot-The-real-one/morphe-patches/commit/81122e998fea13e0f06676cdcdef1170f5f6a9a9))
+* more ad blocking? ([f67ef33](https://github.com/daqot-The-real-one/morphe-patches/commit/f67ef33d96c572d6cf129d9a75b4e2c4be717b38))
+* refine adblocking ([aa0802a](https://github.com/daqot-The-real-one/morphe-patches/commit/aa0802ac478abdbb85a012e28883b523a8aea460))
+* stupid fingerprint ([55427da](https://github.com/daqot-The-real-one/morphe-patches/commit/55427da56f4cbe9c35f6e57a319d220761a20a7f))
 
 ## [1.1.1](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.0...v1.1.1) (2026-11-09)
 

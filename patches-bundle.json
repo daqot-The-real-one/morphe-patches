@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-09T11:48:25",
-  "description": "## [1.1.1](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.0...v1.1.1) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* build and validate patch bundle ([4497478](https://github.com/daqot-The-real-one/morphe-patches/commit/4497478dba9dbb45573973c36e06b9a627219716))\n* build DEX bundle and remove empty ad placeholders ([bfcbab2](https://github.com/daqot-The-real-one/morphe-patches/commit/bfcbab24ecc8a94883d8f813e11bec92a6ae2675))\n* I hope everything works ([4f5a596](https://github.com/daqot-The-real-one/morphe-patches/commit/4f5a596cfb9460d54d21a04afb53ab199506552c))\n* include DEX in Android patch bundle ([b107f59](https://github.com/daqot-The-real-one/morphe-patches/commit/b107f59e2df033726ffad03b34538f15e2ddcec8))",
-  "download_url": "https://github.com/daqot-The-real-one/morphe-patches/releases/download/v1.1.1/patches-1.1.1.mpp",
+  "created_at": "2026-11-09T21:30:33",
+  "description": "## [1.1.2](https://github.com/daqot-The-real-one/morphe-patches/compare/v1.1.1...v1.1.2) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* adblocking? ([712f7b6](https://github.com/daqot-The-real-one/morphe-patches/commit/712f7b6136f51a8f8edefe892731d3a080156c23))\n* crash? ([81122e9](https://github.com/daqot-The-real-one/morphe-patches/commit/81122e998fea13e0f06676cdcdef1170f5f6a9a9))\n* more ad blocking? ([f67ef33](https://github.com/daqot-The-real-one/morphe-patches/commit/f67ef33d96c572d6cf129d9a75b4e2c4be717b38))\n* refine adblocking ([aa0802a](https://github.com/daqot-The-real-one/morphe-patches/commit/aa0802ac478abdbb85a012e28883b523a8aea460))\n* stupid fingerprint ([55427da](https://github.com/daqot-The-real-one/morphe-patches/commit/55427da56f4cbe9c35f6e57a319d220761a20a7f))",
+  "download_url": "https://github.com/daqot-The-real-one/morphe-patches/releases/download/v1.1.2/patches-1.1.2.mpp",
   "signature_download_url": "",
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
